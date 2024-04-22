@@ -1,4 +1,3 @@
-
 #include "MyVector.hpp" 
 #include <cmath> 
  
@@ -35,5 +34,5 @@ Vector3 operator*(Vector3 & v1, Vector3 & v2){
 } 
  
 double Vector3::operator! (){ 
-    return sqrt(this ->x * this ->x + this ->y * this ->y + this ->z * this ->z); 
+    return sqrt(x * x + y * y + z * z); 
 }
