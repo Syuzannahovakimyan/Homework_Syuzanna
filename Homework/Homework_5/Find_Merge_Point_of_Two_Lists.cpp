@@ -73,13 +73,13 @@ int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
     SinglyLinkedListNode* ptr2 = head2;
 
     do {
-        // ptr1 = (ptr1) ? ptr1->next : head2;
+    
         if (ptr1 != nullptr) {         
             ptr1 = ptr1->next;  
         } else {
             ptr1 = head2;   
         }
-       // ptr2 = (ptr2) ? ptr2->next : head1;
+
         if (ptr2 != nullptr) {        
             ptr2 = ptr2->next; 
         } else {
